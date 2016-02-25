@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "wpack": "webpack --progress --colors --watch"
+    "wpack": "webpack --progress --colors --watch",
+    "start": "webpack-dev-server --progress --colors"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^3.3.6",
     "css-loader": "^0.23.1",
+    "jQuery": "^1.7.4",
+    "jquery": "^2.2.1",
     "style-loader": "^0.13.0",
     "webpack-dev-server": "^1.14.1"
   }
